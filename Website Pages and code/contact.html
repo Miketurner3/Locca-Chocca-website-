@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<!-- importing fonts, stylesheet, and page icon -->
+
+<head>
+    <title>Locca Chocca</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    <link href="https://db.onlinewebfonts.com/c/b941d3f378ebeddded9a30a0ae2820fe?family=Akko+Rounded+W04+Black+Italic" rel="stylesheet">
+</head>
+
+<body style="background-color:lightpink;">
+
+    <!-- Nav Bar -->
+
+    <section class="row">
+        <div class="col-12 col-s-12">
+            <nav>
+                <ul>
+                    <li><img src="logo.png" alt="logo" style="width:120px; position:relative; bottom:35px; right:30px;" /></li>
+                    <li><a style="color:rgb(254, 229, 236); padding:0px; margin-right:60px;">Locca Chocca</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a style="color: rgb(254, 229, 236);" href="Contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="row">
+        <div class="col-12 col-s-12">
+            <img class="pinkcircle_index" src="darkpink_circle.png" alt="Pinkcircle_background" style="width: 700px; position: absolute; left:100px; z-index: -1;" />
+            <img class="pinkcircle_index" src="darkpink_circle.png" alt="Pinkcircle_background" style="width: 400px; position: absolute; left: 450px; bottom:0px; z-index:-1" />
+            <img class="pinkcircle_index" src="darkpink_circle.png" alt="Pinkcircle_background" style="width: 300px; position: absolute; left: 1550px; top: 50px; z-index:-1 " />
+            <img class="pinkcircle_index" src="darkpink_circle.png" alt="Pinkcircle_background" style="width: 600px; position: absolute; left: 1200px; bottom:70px; z-index: -1; " />
+        </div>
+    </section>
+
+    <section class="row" style="position:relative;">
+        <div class="col-12 col-s-12">
+            <div class="contactimg"><img style="width:110px; margin-top:15px; " src="youtube.png" /></div>
+            <div class="contactimg"><img src="x.png" /></div>
+            <div class="contactimg"><img style="width:110px" src="instagram.png" /></div>
+            <div class="contactimg"><img src="tiktok.png" /></div>
+        </div>
+        <section class="row" style="position:relative;">
+            <br />
+            <div class="productimage" style=" margin-right: auto; margin-left: auto; width: 420px; height: 420px;"></div>
+
+            <div class="productimage" style=" margin-right: auto; margin-left: auto; margin-right:auto; width: 420px; height: 130px; margin-top:55px;">
+                <div class="descriptionProducts" style="margin-left: auto; margin-right: auto; position:relative; bottom:180px">
+                    Lotta Chocca, The Spinney Trading Estate,
+                    Southampton, Hants, SO42 7BB.
+                    <br />
+                    <br />
+                    Telephone: 01202 564789
+                    Email: info@lottachocca.co.uk
+                    Social Media: X, Instagram & Facebook
+                </div>
+            </div>
+
+            <div id="map" style="margin-left: auto; margin-right: auto; border-radius: 10px; bottom:650px; "></div>
+            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+            <script src="activity.js"></script>
+
+
+
+        </section>
+    </section>
+
+
+</body>
+</html>

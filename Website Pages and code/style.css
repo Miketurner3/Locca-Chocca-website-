@@ -1,0 +1,180 @@
+@import url(https://db.onlinewebfonts.com/c/b941d3f378ebeddded9a30a0ae2820fe?family=Akko+Rounded+W04+Black+Italic);
+
+@font-face {
+	font-family: "Akko Rounded W04 Black Italic";
+	src: url("https://db.onlinewebfonts.com/t/b941d3f378ebeddded9a30a0ae2820fe.eot");
+	src: url("https://db.onlinewebfonts.com/t/b941d3f378ebeddded9a30a0ae2820fe.eot?#iefix")format("embedded-opentype"), 
+		url("https://db.onlinewebfonts.com/t/b941d3f378ebeddded9a30a0ae2820fe.woff2")format("woff2"), 
+		url("https://db.onlinewebfonts.com/t/b941d3f378ebeddded9a30a0ae2820fe.woff")format("woff"), 
+		url("https://db.onlinewebfonts.com/t/b941d3f378ebeddded9a30a0ae2820fe.ttf")format("truetype"), 
+		url("https://db.onlinewebfonts.com/t/b941d3f378ebeddded9a30a0ae2820fe.svg#Akko Rounded W04 Black Italic")format("svg");
+}
+
+nav a {
+	font-family: Akko Rounded W04 Black Italic;
+	z-index:5;
+	font-size: 30px;
+	color:rgb(251, 111, 146);
+	text-decoration: none;
+	padding:30px;
+}
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+#map {
+	height: 420px; /* Set the height of the map */
+	width: 420px; /* Set the width of the map */
+}
+
+nav a:hover {
+	color: rgb(254, 229, 236);
+}
+
+.pinkcircle_index {
+	position: relative;
+	left: 120px;
+	bottom: 100px;
+	width: 800px;
+	z-index: -1;
+}
+
+.gallerybutton {
+	position:relative;
+	left:145px;
+	bottom:70px;
+	border-radius:50px;
+	height: 100px;
+	width: 380px;
+	background-color:rgb(255, 30, 30);
+}
+
+.gallerysquare {
+	position: relative;
+	border-radius: 30px;
+	background-color:rgb(251, 111, 146);
+}
+
+.productimage {
+	background-repeat: no-repeat;
+	background-color: rgb(251, 111, 146);
+	background-size: 400px;
+	width: 360px;
+	height: 600px;
+	outline: 20px solid rgb(251, 111, 146);
+	border-radius:1rem;
+}
+
+.contactimg {
+	background-size: 110px;
+	background-position-y: center;
+	margin-right: auto;
+	margin-left: 30%;
+	width: 110px;
+	height: 110px;
+	margin-bottom: 50px;
+	background-repeat: no-repeat;
+	background-color: rgb(251, 111, 146);
+	outline: 20px solid rgb(251, 111, 146);
+	border-radius: 1rem;
+}
+
+.gallerybutton a {
+	text-decoration: none;
+	color:rgb(254, 229, 236);
+	font-family: Akko Rounded W04 Black Italic;
+	font-size:65px;
+	position:relative;
+	left:80px;
+	top:5px;
+	letter-spacing: 1px;
+}
+
+.gallerybutton a:hover{
+	color:rgb(254, 190, 208);
+}
+
+.gallerytext {
+	font-family: Akko Rounded W04 Black Italic;
+	color:rgb(255, 30, 30);
+	font-size:65px;
+	position: relative;
+	left:160px;
+	bottom:20px;
+}
+
+.description_index_text {
+	font-family: Akko Rounded W04 Black Italic;
+	color: rgb(254, 229, 236);
+	font-size:30px;
+	position:relative;
+	left:20px;
+	top:10px;
+}
+
+.descriptionProducts {
+	font-family: Akko Rounded W04 Black Italic;
+	color: rgb(254, 229, 236);
+	font-size: 20px;
+	position: relative;
+}
+
+.description_index {
+	background-color:rgb(236, 148, 162);
+	width: 920px;
+	height: 100px;
+	border-radius: 80px;
+	position: relative;
+	top: 215px;
+	left: 20px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+ /*for phones*/
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+	.col-s-1 {width: 8.3%;}
+	.col-s-2 {width: 16.6%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.3%;}
+	.col-s-5 {width: 41.6%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.3%;}
+	.col-s-8 {width: 66.6%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10{width: 83.3%;}
+	.col-s-11{width: 91.6%;}
+	.col-s-12{width: 100%;}
+
+
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+	.col-1 {width: 8.3%;}
+	.col-2 {width: 16.6%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.3%;}
+	.col-5 {width: 41.6%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.3%;}
+	.col-8 {width: 66.6%;}
+	.col-9 {width: 75%;}
+	.col-10{width: 83.3%;}
+	.col-11{width: 91.6%;}
+	.col-12{width: 100%;}
+
+}
